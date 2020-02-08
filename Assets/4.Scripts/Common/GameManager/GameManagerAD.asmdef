@@ -1,0 +1,16 @@
+{
+    "name": "GameManagerAD",
+    "references": [
+        "GUID:c13c339154fcd3749af0173d31189f52",
+        "GUID:c4529f1d29f70554fac1ead2184de82c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

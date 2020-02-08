@@ -769,9 +769,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1654326542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fa52749cf411e743b2dd3cd1aa953bd, type: 3}
+  m_Script: {fileID: 11500000, guid: ddd77fb97f5f022498f54d45dd415ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameOver: 0
+  gameData:
+    moveSpeed: 10
 --- !u!4 &1654326544
 Transform:
   m_ObjectHideFlags: 0
@@ -868,8 +871,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1654326543}
-        m_MethodName: ChangeToLobbyScene
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

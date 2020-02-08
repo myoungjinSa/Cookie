@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class PlayerCtrl : MonoBehaviour
+public class PlayerCtrl : Object
 {
     private float h = 0.0f;
     private float v = 0.0f;
@@ -11,7 +11,7 @@ public class PlayerCtrl : MonoBehaviour
 
 
     //접근해야 하는 컴포넌트는 반드시 변수에 할당한 후 사용
-    private Transform tr;
+   // private Transform tr;
 
     //이동 속도 변수(public 으로 선언되어 Inspector에 노출됨)
     public float moveSpeed = 10.0f;
@@ -25,7 +25,7 @@ public class PlayerCtrl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //스크립트가 실행된 후 처음 수행되는 Start 함수에서 Transform 컴포넌트를 할당
+        ////스크립트가 실행된 후 처음 수행되는 Start 함수에서 Transform 컴포넌트를 할당
         tr = GetComponent<Transform>();
 
         animator = GetComponent<Animator>();
